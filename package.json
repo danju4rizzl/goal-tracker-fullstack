@@ -4,17 +4,9 @@
   "description": "A fullstack application build with MERN stack",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
   },
   "author": "Danjuma Ashiwaju",
-  "license": "MIT",
-  "dependencies": {
-    "colors": "^1.4.0",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.3",
-    "mongoose": "^6.3.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  }
+  "license": "MIT"
 }
